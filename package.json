@@ -1,0 +1,25 @@
+{
+  "name": "remotion-quote-shorts",
+  "version": "1.0.0",
+  "description": "A Remotion template that renders cinematic vertical quote shorts from a single content file — free sample of Faceless Shorts Kit",
+  "license": "MIT",
+  "dependencies": {
+    "@remotion/cli": "4.0.524",
+    "@remotion/google-fonts": "4.0.524",
+    "@remotion/media": "4.0.524",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.524",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render QuoteVideo out/quote.mp4",
+    "typecheck": "tsc --noEmit"
+  }
+}
